@@ -19,6 +19,16 @@
 }
 
 body {
+  position: relative;
   background-color: black;
   color: white;
+  font-size: 64px;
+  font-family: 'Outfit', sans-serif;
+  align-items: flex-start;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 24px;
 }
